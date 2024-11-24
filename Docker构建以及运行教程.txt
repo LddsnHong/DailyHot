@@ -5,8 +5,8 @@ docker build -t lddsnh/dailyhot .
 docker run -d \
 --name=dailyhot \
 -p 6699:80 \
--e VITE_GLOBAL_API="http://119.3.162.190:6688" \
--e VITE_ICP="琼ICP备2021006951号-4" \
+-e VITE_GLOBAL_API="http://api ip:6688" \
+-e VITE_ICP="备案号" \
 lddsnh/dailyhot
 
 
